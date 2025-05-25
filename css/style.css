@@ -8139,11 +8139,13 @@ body {
   line-height: 1.8;
   font-weight: 400;
   color: #999999; }
-  body.menu-show {
-    overflow: hidden;
-    position: fixed;
-    height: 100%;
-    width: 100%; }
+   body.menu-show {
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 
 a {
   -webkit-transition: .3s all ease;
